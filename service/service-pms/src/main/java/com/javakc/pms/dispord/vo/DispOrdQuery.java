@@ -9,4 +9,8 @@ import lombok.Data;
 @Data
 public class DispOrdQuery {
     private String orderName;
+
+    private int priority;
+
+    private int specType;
 }
